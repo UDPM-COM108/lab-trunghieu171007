@@ -3,12 +3,13 @@
 int main() {
     int luachon;
     do {
-        printf("menu chuong trinh vui long chon:");
-        printf("1. Tinh hoc luc");
-        printf("2. Giai phuong trinh bac nhat");
-        printf("3. Giai phuong trinh bac 2");
-        printf("0. Thoat chuong trinh");
-        printf("Nhạp lua chon cua ban:");
+        printf("menu chuong trinh vui long chon:\n");
+        printf("1. Tinh hoc luc\n");
+        printf("2. Giai phuong trinh bac nhat\n");
+        printf("3. Giai phuong trinh bac 2\n");
+        printf("4. Tinh tien dien\n");
+        printf("0. Thoat chuong trinh\n");
+        printf("Nhạp lua chon cua ban:\n");
         scanf("%d", &luachon);
         
         //Bài 1: Tính học lực sinh viên
@@ -69,6 +70,32 @@ int main() {
                         printf("Phuong trinh co 2 nghiem phan biet la %f va %f", nghiem1, nghiem2);
                     }
                 }
+                break;
+            }
+        //Bài 4: tính tiền điện
+            case 4: {
+                int sodien;
+                double tiendien=0;
+                printf("nhap so dien:");
+                scanf("%d", &sodien);
+                if (sodien<=50) {
+                    tiendien = (double)sodien*1.678;
+                }
+                else if (sodien<=100) {
+                    tiendien = (double)sodien*1.734;
+                }
+                else if (sodien<=200) {
+                    tiendien = (double)sodien*2.014;
+                }
+                else if (sodien<=300) {
+                    tiendien = (double)sodien*2.536;
+                }
+                else if (sodien<=400) {
+                    tiendien = (double)sodien*2.834;
+                } else {
+                    tiendien = (double)sodien*2.927;
+                }
+                printf("tien dien la %f", tiendien);
                 break;
             }
             case 0:
