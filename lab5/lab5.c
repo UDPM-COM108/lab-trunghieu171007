@@ -36,7 +36,7 @@ int main() {
         printf("Hay chon chuong trinh");
         printf("\n1. tim so lon nhat trong 3 so");
         printf("\n2. Tinh nam nhuan");
-        printf("\n3. Ham hoan vi")
+        printf("\n3. Ham hoan vi");
         printf("\n0. Thoat chuong trinh");
         printf("\nLuachon cua ban la:");
         scanf("%d", &luachon);
