@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/trunghieu/github-classroom/UDPM-COM108/lab-trunghieu171007/lab5",
-      "program": "c:/Users/trunghieu/github-classroom/UDPM-COM108/lab-trunghieu171007/lab5/build/Debug/outDebug",
+      "cwd": "c:/Users/trunghieu/github-classroom/UDPM-COM108/lab-trunghieu171007/lab6",
+      "program": "c:/Users/trunghieu/github-classroom/UDPM-COM108/lab-trunghieu171007/lab6/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
